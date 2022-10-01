@@ -1,0 +1,43 @@
+body{
+   color: rgb(173, 138, 86);
+background-color: moccasin; 
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: darkorange;
+}
+
+
+ol{
+    border-radius: 10px;
+    padding: 2rem;
+    border: rgb(121, 104, 83) 1px solid;
+}
+
+
+table tr{
+    background-color: coral;
+    border: 2px black solid;
+    color: black;
+}
+
+
+table td, th{
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    min-width: 3rem;
+}
+
+img{
+    width: 55rem;
+}
+
+@media (win-width: 600px){
+    body{
+        background-color: moccasin; 
+        color: rgb(173, 138, 86); 
+    }
+    
+}
